@@ -1,0 +1,15 @@
+Name,Area,Address,Type,Min,Max,Unit
+Motor_Run,COIL,0,BOOL,0,1,
+Pump_Enable,COIL,1,BOOL,0,1,
+Alarm_Reset,COIL,2,BOOL,0,1,
+Motor_Running,DI,0,BOOL,0,1,
+Alarm_Active,DI,1,BOOL,0,1,
+Speed_SP,HR,0,INT,0,1500,rpm
+Temp_SP,HR,1,INT,0,120,C
+Flow_SP,HR,2,REAL,0,50,m3/h
+Batch_Target,HR,4,DINT,0,100000,pcs
+Speed_PV,IR,0,INT,0,1500,rpm
+Temp_PV,IR,1,INT,0,120,C
+Flow_PV,IR,2,REAL,0,50,m3/h
+Pressure_PV,IR,4,REAL,0,10,bar
+Batch_Count,IR,6,DINT,0,100000,pcs

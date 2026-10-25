@@ -1,0 +1,11 @@
+object frmMain: TfrmMain
+  Left = 60
+  Height = 900
+  Top = 30
+  Width = 1480
+  Caption = 'Codesys Link HMI'
+  Color = 1183759
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+end
